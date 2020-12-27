@@ -5105,7 +5105,7 @@ p {
     padding: 0;
 }
 .breadcrumb-item {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.5;
     letter-spacing: 0;
@@ -6314,7 +6314,6 @@ p {
 }
 .product {
     position: relative;
-    margin-bottom: 1rem;
     transition: box-shadow 0.35s ease;
     background-color: #fff;
 }
@@ -8437,7 +8436,7 @@ p {
     margin-bottom: 0;
 }
 .form-control {
-    height: 40px;
+    height: 50px;
     padding: 0.85rem 2rem;
     font-size: 1.4rem;
     line-height: 1.5;
@@ -13218,6 +13217,7 @@ button:focus {
 }
 .table.table-summary a {
     color: inherit;
+    font-weight: 400;
 }
 .table.table-summary a:hover,
 .table.table-summary a:focus {
@@ -16283,5 +16283,12 @@ button:focus {
 }
 .icon-yarn:before {
     content: "\f7e3";
+}
+
+.logo-text {
+	font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

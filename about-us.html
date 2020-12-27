@@ -28,18 +28,15 @@
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/skins/skin-demo-14.css">
-    <link rel="stylesheet" href="assets/css/demos/demo-14.css">
 </head>
 
 <body>
     <div class="page-wrapper">
         <header class="header header-14">
             <div class="header-middle">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-auto col-lg-3 col-xl-3 col-xxl-2">
                             <button class="mobile-menu-toggler">
@@ -74,6 +71,7 @@
                                             <a href="#" class="dropdown-toggle" role="button" aria-expanded="false" data-display="static">
                                                 <i class="icon-shopping-cart"></i>
                                                 <span class="cart-count">2</span>
+                                                <span class="cart-txt">Cart</span>
                                             </a>
                                         </div><!-- End .cart-dropdown -->
                                     </div>
@@ -81,11 +79,11 @@
                             </div><!-- End .row -->
                         </div><!-- End .col-xl-9 col-xxl-10 -->
                     </div><!-- End .row -->
-                </div><!-- End .container -->
+                </div><!-- End .container-fluid -->
             </div><!-- End .header-middle -->
 
             <div class="header-bottom sticky-header">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-auto col-lg-3 col-xl-3 col-xxl-2 header-left">
                             <div class="dropdown category-dropdown show is-on" data-visible="true">
@@ -93,7 +91,7 @@
                                     Browse Categories
                                 </a>
 
-                                <div class="dropdown-menu show">
+                                <div class="dropdown-menu">
                                     <nav class="side-nav">
                                         <ul class="menu-vertical sf-arrows">
                                             <li class="megamenu-container">
@@ -400,7 +398,7 @@
                             <nav class="main-nav">
                                 <ul class="menu sf-arrows">
                                     <li class="megamenu-container active">
-                                        <a href="index.html">Home</a>
+                                        <a href="#">Home</a>
                                     </li>
                                     <li>
                                         <a href="#">All Products</a>
@@ -409,408 +407,191 @@
                                         <a href="#">Shipping</a>
                                     </li>
                                     <li>
-                                        <a href="about-us.html">About Us</a>
+                                        <a href="#">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="contact-us.html">Contact Us</a>
+                                        <a href="#l">Contact Us</a>
                                     </li>
                                 </ul><!-- End .menu -->
                             </nav><!-- End .main-nav -->
                         </div><!-- End .col-xl-9 col-xxl-10 -->
                     </div><!-- End .row -->
-                </div><!-- End .container -->
+                </div><!-- End .container-fluid -->
             </div><!-- End .header-bottom -->
         </header><!-- End .header -->
 
-        <main class="main bg-lighter">
-            <div class="mb-lg-2"></div><!-- End .mb-lg-2 -->
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About us</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav><!-- End .breadcrumb-nav -->
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 col-xxl-8 offset-lg-3 offset-xxl-2">
-                        <div class="intro-slider-container slider-container-ratio mb-2">
-                            <div class="intro-slider owl-carousel owl-simple owl-nav-inside" data-toggle="owl" data-owl-options='{
-                                    "nav": false, 
-                                    "dots": true
-                                }'>
-                                <div class="intro-slide">
-                                    <figure class="slide-image">
-                                        <picture>
-                                            <source media="(max-width: 480px)" srcset="assets/images/demos/demo-14/slider/slide-1-480w.jpg">
-                                            <img src="assets/images/demos/demo-14/slider/slide-1.jpg" alt="Image Desc">
-                                        </picture>
-                                    </figure><!-- End .slide-image -->
-
-                                    <div class="intro-content">
-                                        <h3 class="intro-subtitle">New Arrivals</h3><!-- End .h3 intro-subtitle -->
-                                        <h1 class="intro-title text-white">
-                                            The New Way <br>To Buy Furniture
-                                        </h1><!-- End .intro-title -->
-
-                                        <div class="intro-text text-white">
-                                            Spring Collections 2019
-                                        </div><!-- End .intro-text -->
-
-                                        <a href="#" class="btn btn-primary">
-                                            <span>Shop Now</span>
-                                            <i class="icon-long-arrow-right"></i>
-                                        </a>
-                                    </div><!-- End .intro-content -->
-                                </div><!-- End .intro-slide -->
-
-                                <div class="intro-slide">
-                                    <figure class="slide-image">
-                                        <picture>
-                                            <source media="(max-width: 480px)" srcset="assets/images/demos/demo-14/slider/slide-2-480w.jpg">
-                                            <img src="assets/images/demos/demo-14/slider/slide-2.jpg" alt="Image Desc">
-                                        </picture>
-                                    </figure><!-- End .slide-image -->
-
-                                    <div class="intro-content">
-                                        <h3 class="intro-subtitle">Hottest Deals</h3><!-- End .h3 intro-subtitle -->
-                                        <h1 class="intro-title">
-                                            <span>Wherever You Go</span> <br>DJI Mavic 2 Pro
-                                        </h1><!-- End .intro-title -->
-
-                                        <div class="intro-price">
-                                            <sup>from</sup>
-                                            <span>
-                                                &#8369;1,948<sup>.99</sup>
-                                            </span>
-                                        </div><!-- End .intro-price -->
-
-                                        <a href="category.html" class="btn btn-primary">
-                                            <span>Shop Here</span>
-                                            <i class="icon-long-arrow-right"></i>
-                                        </a>
-                                    </div><!-- End .intro-content -->
-                                </div><!-- End .intro-slide -->
-
-                                <div class="intro-slide">
-                                    <figure class="slide-image">
-                                        <picture>
-                                            <source media="(max-width: 480px)" srcset="assets/images/demos/demo-14/slider/slide-3-480w.jpg">
-                                            <img src="assets/images/demos/demo-14/slider/slide-3.jpg" alt="Image Desc">
-                                        </picture>
-                                    </figure><!-- End .slide-image -->
-
-                                    <div class="intro-content">
-                                        <h3 class="intro-subtitle">Limited Quantities</h3><!-- End .h3 intro-subtitle -->
-                                        <h1 class="intro-title">
-                                            Refresh Your <br>Wardrobe
-                                        </h1><!-- End .intro-title -->
-
-                                        <div class="intro-text">
-                                            Summer Collection 2019
-                                        </div><!-- End .intro-text -->
-
-                                        <a href="category.html" class="btn btn-primary">
-                                            <span>Shop Now</span>
-                                            <i class="icon-long-arrow-right"></i>
-                                        </a>
-                                    </div><!-- End .intro-content -->
-                                </div><!-- End .intro-slide -->
-                            </div><!-- End .intro-slider owl-carousel owl-simple -->
-                            
-                            <span class="slider-loader"></span><!-- End .slider-loader -->
-                        </div><!-- End .intro-slider-container -->
-                    </div><!-- End .col-xl-9 col-xxl-10 -->
-                    
-                    <div class="col-xl-3 col-xxl-2 d-none d-xxl-block">
-                        <div class="banner banner-overlay  banner-content-stretch ">
-                            <a href="#">
-                                <img src="assets/images/demos/demo-14/banners/banner-1.png" alt="Banner img desc">
-                            </a>
-                            <div class="banner-content text-right">
-                                <div class="price text-center">
-                                    <sup class="text-white">from</sup>
-                                    <span class="text-white">
-                                        <strong>&#8369;199</strong><sup class="text-white">,99</sup>
-                                    </span>
-                                </div>
-                                <a href="#" class="banner-link">Discover Now <i class="icon-long-arrow-right"></i></a>
-                            </div><!-- End .banner-content -->
-                        </div><!-- End .banner banner-overlay -->
-                    </div><!-- End .col-xl-3 col-xxl-2 -->
-                </div><!-- End .row -->
+                <div class="page-header page-header-big text-center" style="background-image: url('assets/images/about-header-bg.jpg')">
+                    <h1 class="page-title text-white">About us<span class="text-white">Who we are</span></h1>
+                </div><!-- End .page-header -->
             </div><!-- End .container -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-xxl-12">
-                        <div class="mb-5 mt-5">
-                            <div class="heading heading-flex mb-3">
-                                <div class="heading-left">
-                                    <h2 class="title">All Products</h2><!-- End .title -->
-                                </div><!-- End .heading-left -->
-                            </div><!-- End .heading -->
 
-                            <div class="tab-content tab-content-carousel">
-                                <div class="tab-pane p-0 fade show active">
-                                    <div class="product-grids">
+            <div class="page-content pb-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-3 mb-lg-0">
+                            <h2 class="title">Our Vision</h2><!-- End .title -->
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. </p>
+                        </div><!-- End .col-lg-6 -->
+                        
+                        <div class="col-lg-6">
+                            <h2 class="title">Our Mission</h2><!-- End .title -->
+                            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. <br>Praesent elementum hendrerit tortor. Sed semper lorem at felis. </p>
+                        </div><!-- End .col-lg-6 -->
+                    </div><!-- End .row -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-1.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                    <div class="mb-5"></div><!-- End .mb-4 -->
+                </div><!-- End .container -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Butler Stool Ladder</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    <span class="new-price">&#8369;251.99</span>
-                                                    <span class="old-price"><s>&#8369;290.00</s></span>
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                <div class="bg-light-2 pt-6 pb-5 mb-6 mb-lg-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 mb-3 mb-lg-0">
+                                <h2 class="title">Who We Are</h2><!-- End .title -->
+                                <p class="lead text-primary mb-3">Pellentesque odio nisi, euismod pharetra a ultricies <br>in diam. Sed arcu. Cras consequat</p><!-- End .lead text-primary -->
+                                <p class="mb-2">Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue. </p>
+                                <p class="mb-2">Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue. </p>
+                            </div><!-- End .col-lg-5 -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-2.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                            <div class="col-lg-6 offset-lg-1">
+                                <div class="about-images">
+                                    <img src="assets/images/about/img-1.jpg" alt="" class="about-img-front">
+                                    <img src="assets/images/about/img-2.jpg" alt="" class="about-img-back">
+                                </div><!-- End .about-images -->
+                            </div><!-- End .col-lg-6 -->
+                        </div><!-- End .row -->
+                    </div><!-- End .container -->
+                </div><!-- End .bg-light-2 pt-6 pb-6 -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Bose - SoundSport wireless headphones</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    <span class="new-price">&#8369;179.99</span>
-                                                    <span class="old-price"><s>&#8369;199.00</s></span>
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="brands-text">
+                                <h2 class="title">The world's premium design brands in one destination.</h2><!-- End .title -->
+                                <p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nis</p>
+                            </div><!-- End .brands-text -->
+                        </div><!-- End .col-lg-5 -->
+                        <div class="col-lg-7">
+                            <div class="brands-display">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/1.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-3.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/2.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Can 2-Seater Sofa frame charcoal</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;3,050.00
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/3.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-4.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/4.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Tan suede biker jacket</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;240.00
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/5.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-5.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/6.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Sony - Class LED 2160p Smart 4K Ultra HD</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,699.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/7.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-6.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/8.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,199.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                                    <div class="col-6 col-sm-4">
+                                        <a href="#" class="brand">
+                                            <img src="assets/images/brands/9.png" alt="Brand Name">
+                                        </a>
+                                    </div><!-- End .col-sm-4 -->
+                                </div><!-- End .row -->
+                            </div><!-- End .brands-display -->
+                        </div><!-- End .col-lg-7 -->
+                    </div><!-- End .row -->
+                </div>
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-7.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                <div class="about-testimonials bg-light-2 pt-6 pb-6">
+                    <div class="container">
+                        <h2 class="title text-center mb-3">What Customer Say About Us</h2><!-- End .title text-center -->
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,199.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
+                        <div class="owl-carousel owl-simple owl-testimonials-photo" data-toggle="owl" 
+                            data-owl-options='{
+                                "nav": false, 
+                                "dots": true,
+                                "margin": 20,
+                                "loop": false,
+                                "responsive": {
+                                    "1200": {
+                                        "nav": true
+                                    }
+                                }
+                            }'>
+                            <blockquote class="testimonial text-center">
+                                <img src="assets/images/testimonials/user-1.jpg" alt="user">
+                                <p>“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque aliquet nibh nec urna. <br>In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. ”</p>
+                                <cite>
+                                    Jenson Gregory
+                                    <span>Customer</span>
+                                </cite>
+                            </blockquote><!-- End .testimonial -->
 
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-8.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
+                            <blockquote class="testimonial text-center">
+                                <img src="assets/images/testimonials/user-2.jpg" alt="user">
+                                <p>“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati optio eius error libero perferendis nesciunt atque dolores magni recusandae! Doloremque quidem error eum quis similique doloribus natus qui ut ipsum.Velit quos ipsa exercitationem, vel unde obcaecati impedit eveniet non. ”</p>
 
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,199.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-9.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Butler Stool Ladder</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    <span class="new-price">&#8369;251.99</span>
-                                                    <span class="old-price"><s>&#8369;290.00</s></span>
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-10.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Bose - SoundSport wireless headphones</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    <span class="new-price">&#8369;179.99</span>
-                                                    <span class="old-price"><s>&#8369;199.00</s></span>
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-11.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Can 2-Seater Sofa frame charcoal</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;3,050.00
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-12.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Tan suede biker jacket</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;240.00
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-13.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">Sony - Class LED 2160p Smart 4K Ultra HD</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,699.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-14.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,199.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-15.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,199.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                        <div class="product text-center">
-                                            <figure class="product-media">
-                                                <a href="product-details.html">
-                                                    <img src="assets/images/demos/demo-14/products/product-16.jpg" alt="Product image" class="product-image">
-                                                </a>
-                                            </figure><!-- End .product-media -->
-
-                                            <div class="product-body">
-                                                <h3 class="product-title"><a href="product-details.html">MacBook Pro 13" Display, i5</a></h3><!-- End .product-title -->
-                                                <div class="product-price">
-                                                    &#8369;1,199.99
-                                                </div><!-- End .product-price -->
-                                            </div><!-- End .product-body -->
-                                        </div><!-- End .product -->
-
-                                    </div><!-- End .owl-carousel -->
-                                </div><!-- .End .tab-pane -->
-                                
-                            </div><!-- End .row -->
-                        </div><!-- End .sidebar sidebar-home -->
-                    </aside><!-- End .col-lg-3 col-xxl-2 -->
-                </div><!-- End .row -->
-            </div><!-- End .container -->
+                                <cite>
+                                    Victoria Ventura
+                                    <span>Customer</span>
+                                </cite>
+                            </blockquote><!-- End .testimonial -->
+                        </div><!-- End .testimonials-slider owl-carousel -->
+                    </div><!-- End .container -->
+                </div><!-- End .bg-light-2 pt-5 pb-6 -->
+            </div><!-- End .page-content -->
         </main><!-- End .main -->
 
         <footer class="footer">
             <div class="cta cta-horizontal cta-horizontal-box bg-dark bg-image" style="background-image: url('assets/images/demos/demo-14/bg-1.jpg');">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-xl-8 offset-xl-2">
                             <div class="row align-items-center">
                                 <div class="col-lg-5 cta-txt">
                                     <h3 class="cta-title text-primary">Join Our Newsletter</h3><!-- End .cta-title -->
-                                    <p class="cta-desc text-light">Subcribe to get information about products and more...</p><!-- End .cta-desc -->
+                                    <p class="cta-desc text-light">Subcribe to get information about products and coupons</p><!-- End .cta-desc -->
                                 </div><!-- End .col-lg-5 -->
                                 
                                 <div class="col-lg-7">
@@ -826,10 +607,10 @@
                             </div><!-- End .row -->
                         </div><!-- End .col-xl-8 offset-2 -->
                     </div><!-- End .row -->
-                </div><!-- End .container -->
+                </div><!-- End .container-fluid -->
             </div><!-- End .cta -->
             <div class="footer-middle border-0">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12 col-lg-4">
                             <div class="widget widget-about">
@@ -846,10 +627,10 @@
                                 <h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
 
                                 <ul class="widget-list">
-                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="#">About Us</a></li>
                                     <li><a href="#">How to shop on Molla</a></li>
                                     <li><a href="#">FAQ</a></li>
-                                    <li><a href="contact-us.html">Contact us</a></li>
+                                    <li><a href="#">Contact us</a></li>
                                 </ul><!-- End .widget-list -->
                             </div><!-- End .widget -->
                         </div><!-- End .col-sm-4 col-lg-2 -->
@@ -879,18 +660,18 @@
                             </div><!-- End .widget -->
                         </div><!-- End .col-sm-4 col-lg-2 -->
                     </div><!-- End .row -->
-                </div><!-- End .container -->
+                </div><!-- End .container-fluid -->
             </div><!-- End .footer-middle -->
 
             <div class="footer-bottom">
-                <div class="container">
+                <div class="container-fluid">
                     <p class="footer-copyright">Copyright © 2021 Drop Shipping Store. All Rights Reserved.</p><!-- End .footer-copyright -->
                     <div class="social-icons social-icons-color">
                         <figure class="footer-payments">
                             <img src="assets/images/payments.png" alt="Payment methods" width="272" height="20">
                         </figure><!-- End .footer-payments -->
                     </div><!-- End .soial-icons -->
-                </div><!-- End .container -->
+                </div><!-- End .container-fluid -->
             </div><!-- End .footer-bottom -->
         </footer><!-- End .footer -->
     </div><!-- End .page-wrapper -->
@@ -922,7 +703,7 @@
                     <nav class="mobile-nav">
                         <ul class="mobile-menu">
                             <li class="active">
-                                <a href="index.html">Home</a>
+                                <a href="#">Home</a>
                             </li>
                             <li>
                                 <a href="#">All Products</a>
@@ -931,10 +712,10 @@
                                 <a href="#">Shipping</a>
                             </li>
                             <li>
-                                <a href="about-us.html">About Us</a>
+                                <a href="#">About Us</a>
                             </li>
                             <li>
-                                <a href="contact-us.html">Contact Us</a>
+                                <a href="#l">Contact Us</a>
                             </li>
                         </ul>
                     </nav><!-- End .mobile-nav -->
@@ -967,10 +748,6 @@
     <script src="assets/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/superfish.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/bootstrap-input-spinner.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.plugin.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
